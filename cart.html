@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cart - Memori</title>
+
+        <meta name="description" content="Discover personalized gifts at Memoir – Where Every Gift Tells a Story.">
+        <meta name="keywords" content="personalized gifts, custom gifts, unique presents, memoir"> 
+        <meta name="author" content="Preethi">
+
+        <link rel="icon" type="image/png" href="images/favicon.png">
+
+
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/cart.css">
+        <link rel="stylesheet" href="styles/footer.css">
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    </head>
+    <body>
+        <header>
+            <div>
+                <h1><i class='bx bxs-gift'></i>Memori</h1>
+            </div>
+            <nav>
+                <ul id="navbar">
+                    <li><a href="#" id="login-logout"></a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a class="active" href="cart.html"><i class='bx bxs-shopping-bag'></i></a></li>
+                </ul>
+            </nav>
+
+            <div class="mobile">
+                <a href="cart.html"><i class='bx bxs-shopping-bag'></i></a>
+                <i id="bar" class='bx bx-menu'></i> 
+            </div>
+        </header> 
+
+        <section class="page-top">
+            <h1>Welcome To Our Shop</h1>
+        </section>
+
+        <section class="cart">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>Remove</td>
+                        <td>Image</td>
+                        <td>Product</td>
+                        <td>Price</td>
+                        <td>Quantity</td>
+                        <td>Customization</td>
+                        <td>Subtotal</td>
+                    </tr>
+                </thead>
+                <tbody id="cart-body"></tbody>
+            </table>
+        
+            <div class="cart-total">
+                <h3>Total: <span id="total-price">₹0</span></h3>
+                <button id="confirm-purchase">Confirm Purchase</button>
+            </div>
+        </section>
+        
+        
+       <footer>
+            <div class="footer-content">
+                <p>© 2025 Memoir. All rights reserved.</p>
+                <ul class="social-icons">
+                    <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+                    <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+                    <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+                </ul>
+            </div>
+        </footer> 
+
+        <script src="cart.js"></script>
+        
+    </body>
+</html>

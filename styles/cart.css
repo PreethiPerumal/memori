@@ -1,0 +1,149 @@
+.page-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+    width: 100%;
+    height: auto;
+    background-color: #D09683;
+    color: #330000;
+}
+
+
+/* Cart Section */
+.cart {
+    width: 80%;
+    margin: 50px auto; /* Centers the cart section */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-x: auto; /* Ensures responsiveness */
+}
+
+/* Cart Table */
+.cart table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Table Head */
+.cart thead tr {
+    background: #333;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.cart thead td {
+    padding: 15px;
+    font-size: 18px;
+}
+
+/* Table Rows */
+.cart tbody tr {
+    border-bottom: 1px solid #ddd;
+    transition: background 0.3s ease;
+}
+
+.cart tbody tr:hover {
+    background: #f1f1f1;
+}
+
+/* Table Data */
+.cart td {
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Remove Icon */
+.cart td a {
+    color: red;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Product Image */
+.cart img {
+    width: 80px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Quantity Input */
+.cart input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.cart-total{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.cart-total h3{
+    color: #330000;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .cart {
+        width: 95%;
+    }
+    
+    .cart table {
+        font-size: 14px;
+    }
+
+    .cart td, .cart thead td {
+        padding: 10px;
+    }
+
+    .cart img {
+        width: 60px;
+    }
+}
+
+#confirm-purchase {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    padding: 12px;
+    margin: 20px auto;
+    background-color: #28a745;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#confirm-purchase:hover {
+    background-color: #218838;
+}
+
+.custom-text, .custom-image {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.image-preview img {
+    margin-top: 10px;
+    max-width: 50px;
+    border-radius: 5px;
+}
